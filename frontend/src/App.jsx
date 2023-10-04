@@ -6,11 +6,11 @@ import Home from "./pages/Home";
 const App = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar/>
       <Routes>
-      <Route exact path="/" element={<Home />}/>
+        <Route exact path="/" element={<Home/>}/>
       </Routes>
-      <Footer />
+      <Footer/>
     </div>
   )
 }
